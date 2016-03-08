@@ -19,7 +19,6 @@ Then, as you may have guessed, I simply returned the two numbers multiplied toge
  Here is an example: Suppose the user worked 45 hours at $8.00/hr:
 
 {% highlight java %}
-Scanner input = new Scanner(System.in);
 
 int wage = 8;
 int hours = 45;
