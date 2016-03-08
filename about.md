@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello, my name is David. I am a Computer Science student at the Univeristy of Georgia. I currently have a working knowledge of several different languages and tools such as Java, Python, C, HTML/CSS, and Linux. Thank you for visting my site.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+You can find me on Github at:
+{% include icon-github.html username="deebss" %}
 
-You can find the source code for Jekyll at
+You can find the source code for Jekyll (Generator currently running the site) at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
