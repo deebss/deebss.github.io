@@ -10,7 +10,7 @@ title: David Barbieri
 email: barbieri.davidm@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to my website! It is currently a WIP as I am still learning how to use Jekyll. Thank you for your patience!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "http://deebss.github.io" # the base hostname & protocol for your site
 twitter_username: DavidBarberry
 github_username:  deebss

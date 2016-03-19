@@ -9,6 +9,13 @@ Hello, my name is David. I am a Computer Science student at the Univeristy of Ge
 You can find me on Github at:
 {% include icon-github.html username="deebss" %}
 
+You can find me on Twitter at:
+{% include icon-twitter.html username="@DavidBarberry" %}
+
 You can find the source code for Jekyll (Generator currently running the site) at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+You can find the source code for the theme I am using called Hyde (Built on top of Poole) at
+{% include icon-github.html username="poole" %} /
+[hyde](https://github.com/poole/hyde)
