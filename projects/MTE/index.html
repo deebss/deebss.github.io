@@ -11,9 +11,18 @@
         <link href='CSS/style.css' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Cantarell:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
         
+        <!-- JS -->
+        <script src="JS/ui.js"></script>
+        
     </head>
     
-    <body class="light">
+    <body id="editor" class="light">
+        
+        <div class="text-format">
+            <button class="bold-button" onclick="boldClick()" value="Bold"><b>b</b></button>
+            <button class="italic-button" onclick="italicClick()" value="Italics"><i>i</i></button>
+            <button class="underline-button" onclick="underLineClick()" value="Underline"><u>u</u></button>
+        </div>
         
         <section>
             <header contenteditable="true" class="header">Welcome to MTE</header>
@@ -23,7 +32,7 @@
             
                 <p>To start, just delete this text and start typing.</p>
                 
-                <p>This is a constant work in progress. I will try to make it better and better every day. For now, it it just used for note taking in a streamlined writing space. Thank you for using my web app.</p>
+                <p>You can format yout text using <b>bold</b> <i>italics</i>, and <u>underline</u>. <b><i><u>You can even use all three!</u></i></b> Just highlight any text you want and click on any of the three buttons in the top corner. Thank you for using my webapp.</p>
                 
                 <p>Enjoy! <br />-David</p>
             </article>

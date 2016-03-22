@@ -14,6 +14,12 @@ body {
     padding-top: 20px;
     min-width: 800px;
     width: 100%;
+    
+    -webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
 }
 
 section {
@@ -36,6 +42,74 @@ article {
 }
 
 .light {
-    background: #fefefe;
+    background: #fdfcf7;
     color: #111;
+}
+
+.dark {
+    background: #111;
+    color: #fefefe;
+}
+
+.text-format {
+	position: fixed;
+	padding: 20px;
+	width: 30px;
+	bottom: 0px;
+	left: 0px;
+	top: 0px;
+}
+
+.text-format button:hover {
+    opacity: 1;
+}
+
+.text-format button {
+    -webkit-transition: opacity 300ms;
+	-moz-transition: opacity 300ms;
+	-ms-transition: opacity 300ms;
+	-o-transition: opacity 300ms;
+	transition: opacity 300ms;
+    
+    font-family: inherit;
+    background: none;
+    cursor: pointer;
+    font-size: 18pt;
+    color: inherit;
+    opacity: 0.1;
+    padding: 0px;
+    height: 32px;
+    width: 25px;
+    border: 0px;
+}
+
+.misc-buttons {
+    position: fixed;
+    padding: 10px;
+    width: 60px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.misc-buttons button {
+    -webkit-transition: opacity 300ms;
+	-moz-transition: opacity 300ms;
+	-ms-transition: opacity 300ms;
+	-o-transition: opacity 300ms;
+	transition: opacity 300ms;
+    
+    font-family: inherit;
+    background: none;
+    cursor: pointer;
+    font-size: 18pt;
+    color: inherit;
+    opacity: 0.1;
+    padding: 0px;
+    height: 32px;
+    width: 25px;
+    border: 0px;
+}
+
+.misc-buttons button:hover {
+    opacity: 1;
 }
