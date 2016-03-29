@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hex Value Clock</title>
+
+<!-- CSS -->
+<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	* {
+		font-family: 'Lato', sans-serif;
+	}
+
+	#time, #hex {
+		color: #fff;
+	}
+
+	#twitter-button {
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		padding:10px;
+		opacity: 0.5;
+	}
+
+	.twitter-share-button a:hover {
+		opacity: 1.0;
+	}
+
+	div.container {
+		text-align: center;
+	}
+
+	div.container h1{
+		font-size: 96pt;
+	}
+</style>
+</head>
+
+<body onLoad="init()">
+	<div class="container">
+		<h1 id="time"></h1>
+		<br>
+		<h3 id="hex"></h3>
+	</div>
+
+	<div id="twitter-button">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://deebss.github.io/projects/Hex-Value-Clock/index.html" data-text="Check out this clock!">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+
+</body>
+
+<!-- JS -->
+<script type="text/javascript">
+	function init() {
+		var date = new Date();
+		var h = date.getHours();
+		var m = date.getMinutes();
+		var s = date.getSeconds();
+
+		if(h < 10){ h = "0" + h; }
+		if(m < 10){ m = "0" + m; }
+		if(s < 10){ s = "0" + s; }
+
+		h.toString();
+		m.toString();
+		s.toString();
+
+		var hexVal = "#" + h + m + s;
+
+		document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+		document.getElementById('hex').innerHTML = hexVal;
+
+		document.body.style.background = hexVal;
+
+		setTimeout(function() {init();}, 1000);
+	}
+</script>
+</html>
