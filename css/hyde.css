@@ -251,9 +251,9 @@ a.sidebar-nav-item:focus {
 
 /* Brown */
 .theme-base-10 .sidebar {
-  background-color: #01579B;
+  background-color: #3F51B5;
 }
 .theme-base-10 .content a,
 .theme-base-10 .related-posts li a:hover {
-  color: #01579B;
+  color: #3F51B5;
 }
